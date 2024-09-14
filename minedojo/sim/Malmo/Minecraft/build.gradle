@@ -25,7 +25,7 @@ buildscript {
         //     // and putting mixin right here will place it before forge in the class loader
         //     exclude group: 'org.ow2.asm', module: 'asm-debug-all'
         // }
-        classpath fileTree(dir: "/Users/26533/MineDojo/MixinGradle-dcfaf61/MixinGradle/dcfaf61/" , include: '*.jar')
+        classpath fileTree(dir: "/Users/26533/MineDojo/" , include: '*.jar')
         classpath 'com.github.yunfanjiang:ForgeGradle:FG_2.2_patched-SNAPSHOT'
         classpath 'org.spongepowered:mixingradle:0.4-SNAPSHOT'
     }
